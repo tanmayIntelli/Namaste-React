@@ -1,0 +1,119 @@
+body{
+    margin:0px;
+}
+h4,h6,p{
+    margin: 0px;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding:2px 10px;
+    flex:1;
+}
+#logo-img{
+    padding-top:10px;
+    width:150px;
+}
+
+.Nav-links{
+    flex:2;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-family: "Brush Script MT", cursive;
+    }
+
+.Nav-links > ul{
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+
+}
+.Nav-links > ul >li{
+    padding-right: 80px;
+}
+
+.Nav-links > ul> li > a{
+   color: whitesmoke;
+  cursor: pointer;
+    text-decoration: none;
+}
+
+.body{
+    padding: 5px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 20px;
+    padding:15px;
+    width: 20%;
+    border-radius: 5px;
+}
+.card:hover{
+    box-shadow: 5px 5px #d7d6d6;
+    cursor: pointer;
+}
+.card-details{
+    font-family: "ProximaNova","arial","Helvetica Neue","sans-serif";
+}
+#restaurant-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#restaurant-name{
+    margin-top: 10px;
+    font-size: 17px;
+    font-style: bold;
+    word-break: break-word;
+}
+#restaurant-cuisines{
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+}
+#restaurant-details{
+    margin:15px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #535665;
+    font-weight: bold;
+    font-family: "ProximaNova","arial","Helvetica Neue","sans-serif";
+}
+#rating{
+    color: #fff;
+    font-weight: 400;
+    padding: 2px 7px;
+}
+#delivery-time, #cost-for-two{
+    padding: 2px 7px;
+}
+.card-discounts{
+    border-top: 1px solid #e9e9eb;
+    padding: 10px 5px 5px 5px;
+    font-family: "ProximaNova","arial","Helvetica Neue","sans-serif";
+    font-size: 14px;
+    color: #8a584b;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #292929;
+    color: white;
+    padding: 5px;
+}
