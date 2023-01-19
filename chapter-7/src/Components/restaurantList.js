@@ -47,7 +47,11 @@ export default RestaurantList = () => {
       {filteredRestaurant.length < 1 && <h1>No result found!</h1>}
       <div className="restaurant-list">
         {filteredRestaurant.map((resData) => (
-          <Card key={resData.data.id} restaurant={resData} />
+          <Card
+            restID={resData.data.id}
+            key={resData.data.id}
+            restaurant={resData}
+          />
         ))}
       </div>
     </>
